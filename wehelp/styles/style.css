@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  padding: 1rem;
+}
+
+h3 {
+  background-color: #c4c4c4;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+p {
+  padding: 0.5rem;
+  width: 85%;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+footer {
+  background-color: #c4c4c4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+}
+
+footer section.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer section.links a {
+  margin: 0rem 1rem;
+  padding: 0.75rem 0rem;
+}
+
+footer section.links a img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer div p {
+  width: 100%;
+}
+
+@media screen and (max-width: 1250px) {
+  p {
+    width: 100%;
+    margin: 0.25rem;
+  }
+  p br {
+    display: none;
+  }
+  ul li {
+    margin: 0.25rem;
+  }
+  ol li {
+    margin: 0.25rem;
+  }
+  ol li br {
+    display: none;
+  }
+  footer section.links a img {
+    width: 3vw;
+    height: 3vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    width: 100%;
+    margin: 0.25rem;
+  }
+  p br {
+    display: none;
+  }
+  ul li {
+    margin: 0.25rem;
+  }
+  ol li {
+    margin: 0.25rem;
+  }
+  ol li br {
+    display: none;
+  }
+  footer section.links a img {
+    width: 8.5vw;
+    height: 8.5vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
